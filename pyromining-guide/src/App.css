@@ -1,0 +1,55 @@
+.guide-shell {
+  min-height: 100vh;
+  padding: 32px 28px 72px;
+  background: #111415;
+}
+
+.guide-layout { display: grid; grid-template-columns: 248px minmax(0, 1220px); gap: 28px; max-width: 1396px; margin: 0 auto; }
+.guide-sidebar { position: sticky; top: 32px; align-self: start; }
+.eyebrow, .hero-kicker, .strip-heading span, .section-heading > span { color: #732f2f; font: 700 11px/1.3 var(--mono); letter-spacing: .5px; }
+.guide-sidebar { padding: 28px 20px; background: #191d1e; border: 1px solid #303635; }
+.guide-sidebar h1 { margin: 22px 0 16px; color: #732f2f; font: 700 32px/1.15 var(--mc-font); letter-spacing: 0; }
+.sidebar-copy { color: #a3aaa4; font-size: 16px; line-height: 1.5; }
+.sidebar-rule { display: flex; gap: 5px; margin: 26px 0 24px; }.sidebar-rule i { display: block; width: 7px; height: 7px; background: #58635d; }.sidebar-rule i:first-child { background: #d8a64a; }
+.guide-index { display: grid; gap: 2px; margin-top: 0; }
+.index-label { margin-bottom: 10px; color: #727b75; font: 10px var(--mono); letter-spacing: 1px; }
+.guide-index a { display: flex; align-items: baseline; gap: 14px; padding: 9px 0; color: #c5cac3; border-bottom: 1px solid #2a302e; font: 17px/1.15 var(--sans); text-decoration: none; }
+.guide-index a b { width: 22px; color: #68736c; font: 12px var(--mono); }.guide-index a span { color: inherit; }
+.guide-index a:hover, .guide-index a:focus-visible { color: #732f2f; }.guide-index a:hover b, .guide-index a:focus-visible b { color: #732f2f; }
+.sidebar-note { margin-top: 34px; padding: 14px 0 0; color: #727b75; border-top: 1px solid #303635; font: 11px/1.7 var(--mono); }.sidebar-note strong { color: #a3aaa4; font-size: 10px; letter-spacing: 1px; }.sidebar-note span { color: #7fc88a; }
+.sidebar-note span { color: #7fc88a; }
+.guide-content { min-width: 0; padding: 30px 32px 36px; background: #191d1e; border: 1px solid #303635; box-shadow: 0 12px 30px rgba(0, 0, 0, .16); }
+.guide-hero { display: flex; align-items: center; justify-content: space-between; min-height: 190px; padding: 34px 40px; background: #22282b; border: 1px solid #4b4b41; box-shadow: 5px 5px 0 #0d1012, inset 0 0 0 5px #292f31; }
+.guide-hero p { max-width: 580px; margin: 16px 0 0; color: #d0d0c5; font-size: 21px; line-height: 1.45; }
+.hero-block { display: grid; flex: 0 0 86px; width: 86px; height: 86px; place-items: center; margin-left: 24px; color: #732f2f; background: #313a35; border: 4px solid #596353; box-shadow: inset 0 0 0 4px #202622, 5px 5px 0 #111514; font-size: 43px; transform: rotate(-3deg); }
+.reference-strip { margin-top: 0; padding: 0 0 24px; background: transparent; border: 0; border-bottom: 1px solid #303635; border-radius: 0; box-shadow: none; }
+.strip-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
+.strip-heading small { color: #777e78; font: 11px var(--mono); }
+.reference-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.item-reference { display: flex; align-items: center; gap: 11px; min-width: 0; padding: 10px; background: #222827; border: 1px solid #3b4541; }
+.item-swatch { display: grid; flex: 0 0 38px; width: 38px; height: 38px; place-items: center; border: 3px solid #8e9681; box-shadow: inset 0 0 0 3px rgba(0, 0, 0, .3); font: 22px var(--mc-font); }
+.item-cyan { color: #55ffff; background: #174b4e; }.item-gray { color: #bdbdbd; background: #4d4d4d; }.item-purple { color: #d855ff; background: #462451; }.item-bone { color: #fff2cf; background: #897c61; }.item-red { color: #ff5555; background: #5a2529; }.item-green { color: #55ff55; background: #23562c; }
+.item-reference strong, .item-reference span { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }.item-reference strong { color: #e8e8df; font: 14px var(--sans); }.item-reference span { margin-top: 5px; color: #89928b; font: 11px var(--mono); }
+.guide-sections { display: grid; gap: 64px; }
+.guide-section { scroll-margin-top: 28px; }
+.requium-feature { position: relative; margin: 10px 0 0; padding: 28px 24px 32px; background: #211d26; border: 1px solid #594567; }
+.requium-feature .section-heading h2 { color: #e28aff; font-size: 34px; text-shadow: 2px 2px #24132d; }
+.requium-feature .section-heading p { max-width: 760px; font-size: 18px; }
+.requium-rule { display: flex; align-items: baseline; gap: 18px; margin: 24px 0; padding: 16px 18px; background: #17131b; border-left: 3px solid #c66de5; }.requium-rule strong { flex: 0 0 auto; color: #e28aff; font: 700 12px var(--mono); }.requium-rule span { color: #c7bdca; font-size: 16px; line-height: 1.5; }
+.section-heading > span { display: none; }
+.section-heading h2 { margin: 0 0 14px; color: #f0eee7; font: 700 32px/1.15 var(--sans); text-shadow: none; }
+.section-heading p { max-width: 680px; margin: 0 0 20px; color: #a3aaa4; font-size: 17px; line-height: 1.5; }
+.step-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 34px; }
+.step { min-height: 0; padding: 18px 0 22px; background: transparent; border-top: 1px solid #3b4541; }.step b { display: block; color: #d46262; font: 13px var(--mono); }.step strong { display: block; margin-top: 14px; color: #d8ece0; font: 600 18px var(--sans); }.step p { margin: 9px 0 0; color: #a3aaa4; font-size: 15px; line-height: 1.45; }
+.minecraft-panel { max-width: 780px; margin-top: 10px; padding: 14px 16px; color: #f5f5f5; background: rgba(16, 0, 16, 0.94); border: 1px solid #4c2265; box-shadow: inset 0 1px 0 rgba(164, 92, 190, 0.45), 5px 5px 0 rgba(0, 0, 0, .45); font: 20px/1.22 var(--mc-font); text-shadow: 1px 1px #3f3f3f; white-space: pre-line; }
+.vessel-subsection-heading { margin-top: 30px; margin-bottom: 12px; }
+.vessel-subsection-heading span { color: #7d8981; font: 10px var(--mono); letter-spacing: .5px; }
+.vessel-subsection-heading h3 { margin: 6px 0 4px; color: #f0eee7; font: 700 22px/1.15 var(--sans); }
+.vessel-subsection-heading p { margin: 0; color: #89928b; font-size: 14px; line-height: 1.4; }
+.vessel-inventory { display: grid; grid-template-columns: repeat(6, 58px); gap: 5px; width: max-content; max-width: 100%; margin-top: 18px; padding: 8px; background: #191d1e; border: 2px solid #303635; box-shadow: inset 2px 2px 0 #3b4541, inset -2px -2px 0 #111415; }
+.vessel-slot { display: grid; width: 58px; height: 58px; place-items: center; padding: 6px; background: #222827; border: 2px solid #111415; box-shadow: inset 2px 2px 0 #3b4541, inset -2px -2px 0 #151918; cursor: help; }
+.vessel-slot:focus-visible { outline: 2px solid #ffffff; outline-offset: 2px; }
+.vessel-slot img { display: block; width: 42px; height: 42px; image-rendering: pixelated; object-fit: cover; }
+.minecraft-tooltip { max-width: min(360px, calc(100vw - 24px)); padding: 10px 12px !important; color: #f5f5f5 !important; background: rgba(16, 0, 16, 0.96) !important; border: 1px solid #4c2265 !important; border-radius: 0 !important; box-shadow: 3px 3px 0 rgba(0, 0, 0, .45) !important; font: 16px/1.2 var(--mc-font) !important; white-space: pre-line; }
+@media (max-width: 900px) { .guide-layout { grid-template-columns: 1fr; gap: 20px; }.guide-sidebar { position: static; }.guide-index { display: flex; flex-wrap: wrap; }.guide-index a { flex: 1 1 180px; }.sidebar-note { display: none; }.guide-hero { min-height: 160px; }.step-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .guide-shell { padding: 16px 10px 40px; }.guide-content { padding: 20px 16px 28px; }.guide-hero { padding: 24px 20px; }.guide-hero p { font-size: 17px; }.hero-block { display: none; }.reference-grid { grid-template-columns: 1fr 1fr; }.reference-strip { padding: 0 0 20px; }.strip-heading { display: block; }.strip-heading small { display: block; margin-top: 8px; }.step-grid { grid-template-columns: 1fr; }.guide-sections { gap: 42px; }.section-heading h2 { font-size: 24px; }.requium-feature { margin-inline: 0; padding: 22px 15px 25px; }.requium-feature .section-heading h2 { font-size: 27px; }.requium-rule { display: block; }.requium-rule span { display: block; margin-top: 10px; }.minecraft-panel { font-size: 16px; }.vessel-inventory { grid-template-columns: repeat(4, 58px); } }
