@@ -137,7 +137,7 @@ They have no other interaction other then selling them in &7&l/mine shop&r
 
 &6&lGemstones&r
 
-Gemstones have a &e2-3%&r drop rate when mining any ore besides &7Iron&r and &6Gold&r
+Gemstones have a &e2-3%&r drop rate when mining any ore besides &7Iron&r, &6Gold&r, and &5Copper&r
 
 Each ore has its own gemstone and drop rate, with a specific value attached to it
  - &8Coal&r: &7Peridot&r (&6$500&r) &7(2.5%)&r
