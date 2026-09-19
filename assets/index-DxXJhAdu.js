@@ -133,19 +133,19 @@ Small chance for triple drops&r`,`&8Necros Realm&r
 &rFluxes are the most common drops from ores
 They have no other interaction other then selling them in &7&l/mine shop&r
  - &2&lBasic Fluxes&r can be found when mining any overworld ore
- - &4&lBlazed Fluxes&r can be found when mining nether ores (Quartz/Gold). &4Blazed Fluxes&r sell for more then &2Basic Fluxes&r
+ - &4&lBlazed Fluxes&r can be found when mining nether quartz ore. &4Blazed Fluxes&r sell for less then &2Basic Fluxes&r
 
 &6&lGemstones&r
 
-Gemstones have a flat &e2%&r drop rate when mining any ore besides &7Iron&r and &6Gold&r
+Gemstones have a &e2-3%&r drop rate when mining any ore besides &7Iron&r and &6Gold&r
 
-Each ore has its own gemstone, with a specific value attached to it
- - &8Coal&r: &7Peridot&r (&6$500&r)
- - &4Redstone&r: &7Ruby&r (&6$750&r)
- - Nether Quartz: &7Topaz&r (&6$1000&r)
- - &1Lapis&r: &7Amethyst&r (&6$1500&r)
- - &2Emerald&r: &7Sapphire&r (&6$2000&r)
- - &bDiamond&r: &7Tiger's Eye&r (&6$2500&r)
+Each ore has its own gemstone and drop rate, with a specific value attached to it
+ - &8Coal&r: &7Peridot&r (&6$500&r) &7(2.5%)&r
+ - &4Redstone&r: &7Ruby&r (&6$750&r) &7(2%)&r
+ - Nether Quartz: &7Topaz&r (&6$1000&r) &7(2%)&r
+ - &1Lapis&r: &7Amethyst&r (&6$1500&r) &7(2%)&r
+ - &2Emerald&r: &7Sapphire&r (&6$2000&r) &7(3%)&r
+ - &bDiamond&r: &7Tiger's Eye&r (&6$2500&r) &7(2%)&r
 
 Gemstones can be 'Identified' to get a sell price multiplier
 Right click with the gemstone in hand to figure out its quality
@@ -159,10 +159,10 @@ Possible Qualities are:
 
 &4&lMaiden's Recommendation:&r The gemstone identification process leans very slightly in favor of profitting rather then losing money, but only slightly. If you care about short-term profit or have only a small amount of gemstones (less then 5) you're better off selling unidentified, but if you have either bulk gemstones stored or care more about long term profits always identify your gemstones before selling`},{id:`Artifacts`,eyebrow:`03 / Artifacts`,title:`What are these Artifacts Im getting?`,description:`Artifacts are the key to all endgame Pyromining resources`,content:`&6&lArtifacts
 
-&rArtifacts have a &e0.8%&r chance to drop when mining any ore
-They look like firework stars and have 9 different tiers of rarity then can fall into
+&rArtifacts have a &e1.1%&r chance to drop when mining any ore
+They look like firework stars and have 9 different tiers of rarity they can fall into
 
-After hitting the 0.8% chance it rolls rarity based on these rates:
+After hitting the 1.1% chance it rolls rarity based on these rates:
  - &fBasic&r: &742%&r
  - &2Unusual&r: &721%&r
  - &5Epic&r: &714%&r
@@ -203,7 +203,7 @@ That means you have a &71/125000&r chance of getting a divine artifact when brea
      - &5Mysterious Dust&r -> Various Rewards
      - &8Fossils&r -> Vessels
 
-    &5&lMysterious Dust Drops&r
+    &5&lMysterious Dust Refinery Drops&r
       - &d75%: Rune Dust&r
       - &e4% (Requires Level 20): Oraclite&r
       - &37% (Requires Level 25): Ancient Relic&r
