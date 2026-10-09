@@ -155,9 +155,7 @@ Possible Qualities are:
  - Badly Damaged: &70.8&r
  - Damaged: &70.9&r
  - Worn: &71.2&r
- - Pristine: &71.5&r
-
-&4&lMaiden's Recommendation:&r The gemstone identification process leans very slightly in favor of profitting rather then losing money, but only slightly. If you care about short-term profit or have only a small amount of gemstones (less then 5) you're better off selling unidentified, but if you have either bulk gemstones stored or care more about long term profits always identify your gemstones before selling`},{id:`Artifacts`,eyebrow:`03 / Artifacts`,title:`What are these Artifacts Im getting?`,description:`Artifacts are the key to all endgame Pyromining resources`,content:`&6&lArtifacts
+ - Pristine: &71.5&r`},{id:`Artifacts`,eyebrow:`03 / Artifacts`,title:`What are these Artifacts Im getting?`,description:`Artifacts are the key to all endgame Pyromining resources`,content:`&6&lArtifacts
 
 &rArtifacts have a &e1.1%&r chance to drop when mining any ore
 They look like firework stars and have 9 different tiers of rarity they can fall into
