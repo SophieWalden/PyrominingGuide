@@ -128,24 +128,24 @@ Small chance for triple drops&r`,`&8Necros Realm&r
 
 &7Max Level Bonus:&r
 60% Chacne to drop a bonus rune&r
-(Pickaxe must be in hotbar when killing the guardian for the buff to apply)`],hn=[`/PyrominingGuide/green.webp`,`/PyrominingGuide/orange.webp`,`/PyrominingGuide/red_2.webp`,`/PyrominingGuide/blue.webp`,`/PyrominingGuide/lime_green.webp`,`/PyrominingGuide/pink.webp`,`/PyrominingGuide/red.webp`,`/PyrominingGuide/light_blue.webp`,`/PyrominingGuide/cyan.webp`,`/PyrominingGuide/dark_grey.webp`,`/PyrominingGuide/yellow.webp`,`/PyrominingGuide/light_grey.webp`],gn=[{id:`StartHere`,eyebrow:`01 / INTRODUCTION`,title:`How do I interact with Pyromining?`,description:`Mine ores, sell fluxes and gemstone, refine mysterious dust, identify artifacts, and assemble your first Vessel`,steps:[[`Mine Ores`,`Breaking ores gives you a chance to get a multitude of Pyromining resources. Resources dropped are for either one of two things: selling or progress towards an enchantment. You can silk touch the ores (which doesnt give you pyromining resources) to later break with a non silk touch pickaxe and get pyromining rewards`],[`Sell Fluxes and Gemstones`,`Pyromining features Fluxes and Gemstones which are meant purely to be sold. This can be done in /mine shop`],[`Artifacts, Fossils, and Vessels`,`Artifacts have a chance to drop from mining ores. Identify these in /mine artifacts to get fossils. Assemble 8 fossils of the same type to get a Vessel, a living enchantment on your pickaxe`],[`Confused?`,`Pyromining can be a bit confusing at times. Check /mine journal for help, or refer to the sections below. The hardest part is the requium orb puzzle, but the easiest part is just understanding that you mine ores and get rewards`]]},{id:`Sellables`,eyebrow:`02 / Sellables`,title:`How to start making money with Pyromining?`,description:`The first two resources you encounter in Pyromining, will be purely used for profit`,content:`&6&lFluxes
+(Pickaxe must be in hotbar when killing the guardian for the buff to apply)`],hn=[`/green.webp`,`/orange.webp`,`/red_2.webp`,`/blue.webp`,`/lime_green.webp`,`/pink.webp`,`/red.webp`,`/light_blue.webp`,`/cyan.webp`,`/dark_grey.webp`,`/yellow.webp`,`/light_grey.webp`],gn=[{id:`StartHere`,eyebrow:`01 / INTRODUCTION`,title:`How do I interact with Pyromining?`,description:`Mine ores, sell fluxes and gemstone, refine mysterious dust, identify artifacts, and assemble your first Vessel`,steps:[[`Mine Ores`,`Breaking unplaced ores gives you a chance to get a multitude of Pyromining resources. Resources dropped are for either one of two things: selling or progress towards an enchantment`],[`Sell Fluxes and Gemstones`,`Pyromining features Fluxes and Gemstones which are meant purely to be sold. This can be done in /mine shop`],[`Artifacts, Fossils, and Vessels`,`Artifacts have a chance to drop from mining ores. Identify these in /mine artifacts to get fossils. Assemble 8 fossils of the same type to get a Vessel, a living enchantment on your pickaxe`],[`Confused?`,`Pyromining can be a bit confusing at times. Check /mine journal for help, or refer to the sections below. The hardest part is the requium orb puzzle, but the easiest part is just understanding that you mine ores and get rewards`]]},{id:`Sellables`,eyebrow:`02 / Sellables`,title:`How to start making money with Pyromining?`,description:`The first two resources you encounter in Pyromining, will be purely used for profit`,content:`&6&lFluxes
 
 &rFluxes are the most common drops from ores
 They have no other interaction other then selling them in &7&l/mine shop&r
  - &2&lBasic Fluxes&r can be found when mining any overworld ore
- - &4&lBlazed Fluxes&r can be found when mining nether quartz ore. &4Blazed Fluxes&r sell for less then &2Basic Fluxes&r
+ - &4&lBlazed Fluxes&r can be found when mining nether ores (Quartz/Gold). &4Blazed Fluxes&r sell for more then &2Basic Fluxes&r
 
 &6&lGemstones&r
 
-Gemstones have a &e2-3%&r drop rate when mining any ore besides &7Iron&r, &6Gold&r, and &5Copper&r
+Gemstones have a flat &e2%&r drop rate when mining any ore besides &7Iron&r and &6Gold&r
 
-Each ore has its own gemstone and drop rate, with a specific value attached to it
- - &8Coal&r: &7Peridot&r (&6$500&r) &7(2.5%)&r
- - &4Redstone&r: &7Ruby&r (&6$750&r) &7(2%)&r
- - Nether Quartz: &7Topaz&r (&6$1000&r) &7(2%)&r
- - &1Lapis&r: &7Amethyst&r (&6$1500&r) &7(2%)&r
- - &2Emerald&r: &7Sapphire&r (&6$2000&r) &7(3%)&r
- - &bDiamond&r: &7Tiger's Eye&r (&6$2500&r) &7(2%)&r
+Each ore has its own gemstone, with a specific value attached to it
+ - &8Coal&r: &7Peridot&r (&6$500&r)
+ - &4Redstone&r: &7Ruby&r (&6$750&r)
+ - Nether Quartz: &7Topaz&r (&6$1000&r)
+ - &1Lapis&r: &7Amethyst&r (&6$1500&r)
+ - &2Emerald&r: &7Sapphire&r (&6$2000&r)
+ - &bDiamond&r: &7Tiger's Eye&r (&6$2500&r)
 
 Gemstones can be 'Identified' to get a sell price multiplier
 Right click with the gemstone in hand to figure out its quality
@@ -155,12 +155,14 @@ Possible Qualities are:
  - Badly Damaged: &70.8&r
  - Damaged: &70.9&r
  - Worn: &71.2&r
- - Pristine: &71.5&r`},{id:`Artifacts`,eyebrow:`03 / Artifacts`,title:`What are these Artifacts Im getting?`,description:`Artifacts are the key to all endgame Pyromining resources`,content:`&6&lArtifacts
+ - Pristine: &71.5&r
 
-&rArtifacts have a &e1.1%&r chance to drop when mining any ore
-They look like firework stars and have 9 different tiers of rarity they can fall into
+&4&lMaiden's Recommendation:&r The gemstone identification process leans very slightly in favor of profitting rather then losing money, but only slightly. If you care about short-term profit or have only a small amount of gemstones (less then 5) you're better off selling unidentified, but if you have either bulk gemstones stored or care more about long term profits always identify your gemstones before selling`},{id:`Artifacts`,eyebrow:`03 / Artifacts`,title:`What are these Artifacts Im getting?`,description:`Artifacts are the key to all endgame Pyromining resources`,content:`&6&lArtifacts
 
-After hitting the 1.1% chance it rolls rarity based on these rates:
+&rArtifacts have a &e0.8%&r chance to drop when mining any ore
+They look like firework stars and have 9 different tiers of rarity then can fall into
+
+After hitting the 0.8% chance it rolls rarity based on these rates:
  - &fBasic&r: &742%&r
  - &2Unusual&r: &721%&r
  - &5Epic&r: &714%&r
@@ -192,7 +194,7 @@ That means you have a &71/125000&r chance of getting a divine artifact when brea
      - &7Fossils (Needed to create Vessels, the pickaxe enchantments)&r
      - &9Requium Orbs (Needed to summon boss fight)&r
      
-     &4&lMaiden's Recommendation:&r Always have your identification slots full. The later sections require a ton of materials found in these artifacts. Especially focus on identifying tier 3 and above artifacts for a mix of higher fossil chance, requium orbs, and evauntally ancient relics at tier 6. Artifacts do have a sell price. You can sell them if you have bulk amounts of low tier artifacts while you have higher tier ones identifying, but they're more useful getting their drops from the identification process.`},{id:`Refining`,eyebrow:`04 / Refining`,title:`What do I do with Mysterious Dust and Fossils?`,description:`Mysterious dust? I hardly know her!`,content:`&6&lMysterious Dust&r
+     &4&lMaiden's Recommendation:&r Always have your identification slots full. The later sections require a ton of materials found in these artifacts. Especially focus on identifying tier 3 and above artifacts for the fossil chance, the most useful resource in the plugin. Artifacts do have a sell price. You can sell them if you have bulk amounts of low tier artifacts while you have higher tier ones identifying, but they're more useful getting their drops from the identification process.`},{id:`Refining`,eyebrow:`04 / Refining`,title:`What do I do with Mysterious Dust and Fossils?`,description:`Mysterious dust? I hardly know her!`,content:`&6&lMysterious Dust&r
     Mysterious dust, a gunpowder looking item, is the most basic resource put into the refinery
 
     &3Creating a Refinary: &rTo create a refinery you need to place an upwards facing &7dropper&r with a &7fence&r on top. To refine, place the needed items in the dropper and right click the fence
@@ -201,7 +203,7 @@ That means you have a &71/125000&r chance of getting a divine artifact when brea
      - &5Mysterious Dust&r -> Various Rewards
      - &8Fossils&r -> Vessels
 
-    &5&lMysterious Dust Refinery Drops&r
+    &5&lMysterious Dust Drops&r
       - &d75%: Rune Dust&r
       - &e4% (Requires Level 20): Oraclite&r
       - &37% (Requires Level 25): Ancient Relic&r
@@ -213,14 +215,14 @@ That means you have a &71/125000&r chance of getting a divine artifact when brea
 
       &3Ancient Relic:&r When used on a sealed artifact, it upgrades their tier by +1
 
-      &4Shattered Requium Orbs:&r Collect 4 Shattered Requium Orbs and right click to get one random Requium Orb
+      &4Shattered Requium Orbs:&r Collect 4 of the same type of Shattered Requium Orb and right click to get one Requium Orb of that kind
 
       More information can be found about &dRune Dust&r, &eOraclite&r, and &4Requium Orbs&r in their respective bosses sections below
 
       &6&lFossils and Vessels&r
       The other recipe that can be made in the refinery is the creation of Vessels, custom enchantments for your pickaxe
 
-      When identifying any artifacts, you have a chance to get a Fossil
+      When identifying tier 3 and above artifacts, you have a chance to get a Fossil
 
       Fossils have 2 unique parameters attached to each one:
        - &3Vessel&r: Each fossil is a piece of one of the twelve Vessels
@@ -268,8 +270,8 @@ That means you have a &71/125000&r chance of getting a divine artifact when brea
 
     There is a &e2 minute cooldown&r between getting a Thrall. Thrall spawn chance and cooldown can be upgraded by getting the &7Necros Realm&r Vessel, a perfect choice for a first Vessel
 
-    Everytime you kill a Thrall, the vessel gives a bit of anger. At certain thresholds the requiured requium for each slot will be revealed. You can view progress / orb needed by hovering over the iron bars in /mine vessels after selecting your pickaxe
-    +
+    Everytime you kill a Thrall, you gain a bit of anger. Once the anger level hits &e100%&r your anger is reset and a Requium orb placement is revealed to you in chat
+
     An example reveal is: &7You have unlocked &4Requium #1&r&7 which is &cChet&r
 
     You can hover over the green book in &7/mine vessels&r after clicking your pickaxe to see your anger progress
@@ -279,7 +281,7 @@ That means you have a &71/125000&r chance of getting a divine artifact when brea
     &6&lVessel Boss&r
     Similar to the Thralls, the boss's strength and stats are based on how many Vessels are currently active on your pickaxe.
 
-    This means that earliy Vessel bosses will be easier then a rune guardian. However later ones will require high tier gear and resources you can use. Vessels must be fought alone, if someone else tries to hit your vessel boss they will get a message saying they aren't allowed to damage this entity
+    This means that later Vessel progressions will likely &4require a group to fight&r, while your first Vessel can likely be &2done alone&r
 
     Vessel Bosses have a possibility to spawn in with one of &e6 quirks&r (or none at all). This can be viewed beforehand in the green book in &7/mine vessels&r:
      - &4Fire damage immunity&r
@@ -291,7 +293,7 @@ That means you have a &71/125000&r chance of getting a divine artifact when brea
 
     To spawn the Vessel Boss, mine a piece of ore while all Requium Orbs are placed. If the Requium Orbs are placed in the &4wrong order&r, the boss will spawn for a short period (&e30-60 seconds&r), and then despawn. You can use this to check if you have the right order, but the more consistent method is &4killing thralls&r
 
-    Killing a Vessel Boss removes the Vessel Progression and confirms it as an enchantment on your pickaxe. They also drop 3 shattered Requium Orbs
+    Killing a Vessel Boss removes the Vessel Progression and confirms it as an enchantment on your pickaxe. They also drop a shattered version of each of the Requium orbs used (4 Shattered Requium Orbs = 1 Requium Orb) 
     `},{id:`RuneDust`,eyebrow:`06 / Rune Dust`,title:`What do I do with Rune Dust?`,description:`The first miniboss you can encounter, and a realization that these bosses hit hard`,content:`&6&lRune Dust&r
       &5Rune dust&r is the most common drop you'll get from refining Mysterious dust
 
